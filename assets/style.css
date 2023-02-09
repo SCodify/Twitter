@@ -1,3 +1,7 @@
+*{
+    /* outline: 1px solid red; */
+}
+
 li{
     list-style: none;
 }
@@ -131,4 +135,34 @@ textarea{
 .user-untweet{
     display: flex;
     justify-content: space-between;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #eff3f4ff;
+    border: none;
+}
+
+.card-aside {
+    background-color: #f7f9f9ff;
+}
+
+.card-aside h2{
+    font-size: 1.1rem;
+}
+
+.card-aside_info p{
+    margin: 0;
+}
+
+.card-aside_info:hover {
+    background-color: #eff1f1ff;
+}
+
+.card-aside_info .bi {
+    position: absolute;
+    top:0;
+    font-size: 1em !important;
 }
