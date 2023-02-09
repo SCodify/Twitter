@@ -35,6 +35,12 @@ h4{
 
 .navbar{
     border-right: 1px solid #E7E7E8;
+    justify-content: start !important;
+    align-items: start !important;
+
+    position: sticky;
+    top: 0;
+    bottom: 0;
 }
 
 .navbar-item{
@@ -74,7 +80,7 @@ h4{
 .twittear{
     background-color: #1D9BF0;
     color: #fff;
-    padding: 15px 10px;
+    /* padding: 15px 10px; */
     border-radius: 30px;
     font-size: 1.3rem;
 }
@@ -112,6 +118,15 @@ h4{
     align-items: center;
     justify-content: space-between;
     margin: 0 10px;
+}
+
+.items-newtweet_twittear{
+    display: block;
+    background-color: #1D9BF0;
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
 textarea{
@@ -181,3 +196,26 @@ textarea{
     font-size: 1em !important;
 }
 
+.bi-three-dots {
+    font-size: 1em;
+}
+
+.icon-container {
+    height: min-content;
+    padding: 5px;
+}
+
+.items-untweet .bi {
+    font-size: 1em;
+}
+
+main {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+header {
+    position: sticky;
+    top:0;
+    background-color: white;
+}
