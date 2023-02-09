@@ -1,0 +1,134 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 1rem;
+    
+}
+
+/* BARRA DE NAVEGACION LATERAL */
+
+.navbar{
+    border-right: 1px solid #E7E7E8;
+}
+
+.navbar-item{
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px){
+    .navbar-item{ 
+        display: none;
+    }
+    .col-sm-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+    }
+}
+
+.navbar-block{
+    display: flex;
+    align-items: center;
+    border-radius: 90px;
+    padding: 5px;
+}
+
+.navbar-block:hover{
+    background-color: #E7E7E8;
+}
+
+.bi{
+    font-size: 2em;
+    margin-right: 5px;
+}
+
+.bi-twitter{
+    width: 30px;
+}
+
+.twittear{
+    background-color: #1D9BF0;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+}
+
+/* CAJA HEADER */
+
+.header{
+    border: 1px solid #E7E7E8;
+}
+
+.titles:hover{
+    background-color: #E7E7E8;
+}
+
+/* CAJA NUEVO TWEET */
+
+.newtweet{
+    border: 1px solid #E7E7E8;
+}
+
+.icon-newtweet{
+    color: #1D9BF0;
+    font-size: 1.3rem;
+}
+
+.fotoperfil{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.items-newtweet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 1.3rem;
+}
+
+/* CAJA TWEET */
+
+.untweet{
+    border: 1px solid #E7E7E8;
+}
+
+.untweet:hover{
+    background-color: #E7E7E8;
+}
+
+.user-untweet{
+    display: flex;
+    justify-content: space-between;
+}
