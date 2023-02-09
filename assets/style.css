@@ -137,16 +137,22 @@ textarea{
     justify-content: space-between;
 }
 
+.input-group-text{
+    background-color: #eff3f4ff;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+
 .search-bar {
-    width: 100%;
-    padding: 10px;
-    border-radius: 50px;
+    border-radius: 0 50px 50px 0;
     background-color: #eff3f4ff;
     border: none;
 }
 
 .card-aside {
     background-color: #f7f9f9ff;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .card-aside h2{
@@ -157,12 +163,21 @@ textarea{
     margin: 0;
 }
 
+.card-aside_info i {
+    display: inline-block;
+    margin-right: 5px;
+}
+
 .card-aside_info:hover {
     background-color: #eff1f1ff;
 }
 
 .card-aside_info .bi {
-    position: absolute;
     top:0;
     font-size: 1em !important;
 }
+
+.bi-search {
+    font-size: 1em !important;
+}
+

@@ -141,12 +141,13 @@
                 </section>
             </main>
             <!-- BARRA LATERAL DERECHA -->
-            <aside class="col-md-3 d-flex flex-column justify-content-start pt-2 " style="background: lightgreen;">
-                <label>
-                    <input class="search-bar" type="text">
-                </label>
+            <aside class="col-md-3 d-flex flex-column justify-content-start pt-2 ">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-search fa-3x"></i></span>
+                    <input type="text" class="form-control search-bar" placeholder="Buscar en Twitter" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
 
-                <div class="card-aside mt-3 py-2 rounded-3">
+                <div class="card-aside mt-3 pt-2">
                     <h2 class="ms-2">Qué está pasando</h2>
                     <div class="card-aside_info p-2">
                         <p class="m-0"><strong>#TÁR</strong></p>
@@ -164,6 +165,9 @@
                         <p class="m-0 fw-lighter"><small>51,5 mil Tweets</small></p>
 
                         <!-- <div class="icon"><i class="bi bi-three-dots"></i></div> -->
+                    </div>
+                    <div class="card-aside_info p-2 ">
+                        <a href="#" class="text-primary" >Mostrar más</a>
                     </div>
                 </div>
             </aside>
