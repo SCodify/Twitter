@@ -31,6 +31,12 @@ h4{
 
 .navbar{
     border-right: 1px solid #E7E7E8;
+    justify-content: start !important;
+    align-items: start !important;
+
+    position: sticky;
+    top: 0;
+    bottom: 0;
 }
 
 .navbar-item{
@@ -70,7 +76,7 @@ h4{
 .twittear{
     background-color: #1D9BF0;
     color: #fff;
-    padding: 15px 10px;
+    /* padding: 15px 10px; */
     border-radius: 30px;
     font-size: 1.3rem;
 }
@@ -110,6 +116,15 @@ h4{
     margin: 0 10px;
 }
 
+.items-newtweet_twittear{
+    display: block;
+    background-color: #1D9BF0;
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
 textarea{
     width: 100%;
     border: none;
@@ -131,4 +146,72 @@ textarea{
 .user-untweet{
     display: flex;
     justify-content: space-between;
+}
+
+.input-group-text{
+    background-color: #eff3f4ff;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+
+.search-bar {
+    border-radius: 0 50px 50px 0;
+    background-color: #eff3f4ff;
+    border: none;
+}
+
+.card-aside {
+    background-color: #f7f9f9ff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-aside h2{
+    font-size: 1.1rem;
+}
+
+.card-aside_info p{
+    margin: 0;
+}
+
+.card-aside_info i {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.card-aside_info:hover {
+    background-color: #eff1f1ff;
+}
+
+.card-aside_info .bi {
+    top:0;
+    font-size: 1em !important;
+}
+
+.bi-search {
+    font-size: 1em !important;
+}
+
+.bi-three-dots {
+    font-size: 1em;
+}
+
+.icon-container {
+    height: min-content;
+    padding: 5px;
+}
+
+.items-untweet .bi {
+    font-size: 1em;
+}
+
+main {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+header {
+    position: sticky;
+    top:0;
+    background-color: white;
 }
